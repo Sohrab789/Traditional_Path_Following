@@ -1,17 +1,26 @@
-# Path Following for Nomoto 1st Order Dynamics with LOS Guidance and PID Controller
-Path Following for Nomoto 1st Order Dynamics with LOS Guidance and PID Controller.
-This repository demonstrates path following for various trajectories (Straight Line, Circle, Figure Eight, and random paths) using the Nomoto 1st Order Dynamics model with Line-of-Sight (LOS) guidance and a PID Controller. It is useful for simulating maritime navigation or any other dynamic systems that follow paths using similar control algorithms.
+Path Following for Nomoto 1<sup>st</sup> Order Dynamics with LOS Guidance and PID Controller
+This repository demonstrates path following for various trajectories such as Straight Line, Circle, Figure Eight, and Random Paths using the Nomoto 1<sup>st</sup> Order Dynamics model. The Line-of-Sight (LOS) guidance system provides steering commands, while a PID Controller adjusts the vessel's heading to follow the desired path. This is particularly useful for simulating maritime navigation or dynamic systems that follow similar control algorithms.
 
 Features
-Path Types: Straight Line, Circle, Figure Eight, and Random Paths
-Dynamics: Nomoto 1st Order Model
-Guidance: Line-of-Sight (LOS) Algorithm
-Controller: PID Controller for Steering
-Visualization: Plotting results for clear path following demonstration
-
+Path Types:
+Straight Line
+Circle
+Figure Eight
+Random Paths
+Dynamics:
+Nomoto 1<sup>st</sup> Order Model
+Guidance:
+Line-of-Sight (LOS) Algorithm
+Controller:
+PID Controller for Steering
+Visualization:
+Plotting results for clear path-following demonstrations
 How It Works
-The repository simulates a vessel following different paths with the following components:
+The repository simulates a vessel following different paths using three main components:
 
-Nomoto 1st Order Dynamics: Models the system dynamics.
-LOS Guidance Algorithm: Provides heading commands to keep the vessel on course.
-PID Controller: Corrects steering errors based on the LOS commands.
+Nomoto 1<sup>st</sup> Order Dynamics:
+Models the system's response to steering commands, capturing the vessel's inertia and turning behavior.
+LOS Guidance Algorithm:
+Provides the desired heading by calculating the line-of-sight angle to keep the vessel on course toward the next waypoint.
+PID Controller:
+Corrects steering errors by adjusting the rudder angle based on the difference between the desired and actual heading.
